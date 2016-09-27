@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      FINANCIAMIENTO"
+            android:layout_width="730dp"
+            android:layout_marginTop="57dp"
+            android:id="@+id/textView37"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp"
+            android:background="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:text="Requerimiento de Vacas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox29"
+            android:layout_alignStart="@+id/checkBox29"
+            android:layout_marginTop="31dp"
+            android:id="@+id/checkBox30"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese nombre"
+            android:ems="10"
+            android:layout_marginStart="65dp"
+            android:id="@+id/input_institucion"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_above="@+id/checkBox30"
+            android:layout_toEndOf="@+id/checkBox30" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese requerimiento"
+            android:ems="10"
+            android:layout_alignBottom="@+id/checkBox30"
+            android:layout_alignStart="@+id/input_institucion"
+            android:id="@+id/input_requerimiento"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <CheckBox
+            android:text="Requerimiento de Novillas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox30"
+            android:layout_alignStart="@+id/checkBox30"
+            android:layout_marginTop="27dp"
+            android:id="@+id/checkBox31"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese requerimiento"
+            android:ems="10"
+            android:layout_alignBottom="@+id/checkBox31"
+            android:layout_alignStart="@+id/input_requerimiento"
+            android:id="@+id/editText69"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <CheckBox
+            android:text="Banco/Institución"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="38dp"
+            android:id="@+id/checkBox29"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView37"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="¿Posee documento del INTI?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox31"
+            android:layout_alignStart="@+id/checkBox31"
+            android:layout_marginTop="97dp"
+            android:id="@+id/textView42"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView42"
+            android:layout_alignStart="@+id/textView42"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView43" />
+
+        <TextView
+            android:text="¿Posee Hierro registrado y notariado por el INSAI?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_documentoInti"
+            android:layout_toEndOf="@+id/textView43"
+            android:layout_marginTop="45dp"
+            android:id="@+id/textView44"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/textView44"
+            android:layout_alignStart="@+id/textView44"
+            android:layout_marginTop="12dp"
+            android:id="@+id/editText77"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal"
+            android:text="Ingrese" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:lineSpacingExtra="1sp"
+            android:textSize="18sp"
+            android:layout_marginStart="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Guardar"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSave"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack"
+            android:layout_marginStart="13dp" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Especifique"
+            android:ems="10"
+            android:id="@+id/input_documentoInti"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignTop="@+id/textView43"
+            android:layout_alignStart="@+id/textView43" />
+
+    </RelativeLayout>
+</LinearLayout>

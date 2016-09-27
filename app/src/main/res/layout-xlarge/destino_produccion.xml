@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_numAnimales"
+            android:text="N° Animales"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:text="ORDEÑO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_edadVenta"
+            android:layout_alignStart="@+id/input_edadVenta"
+            android:layout_marginTop="42dp"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:id="@+id/input_numOrdeñadas"
+            android:text="N° De vacas Ordeñadas"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/input_pesoVenta"
+            android:text="Peso Promedio para Venta"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/input_numAnimales"
+            android:layout_alignStart="@+id/input_numAnimales" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Edad para Venta"
+            android:ems="10"
+            android:id="@+id/input_edadVenta"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/input_pesoVenta"
+            android:layout_alignStart="@+id/input_pesoVenta" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/input_litrosLeche"
+            android:text="Litros de Leche"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/input_numOrdeñadas"
+            android:layout_alignStart="@+id/input_numOrdeñadas" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_litrosLeche"
+            android:layout_alignStart="@+id/input_litrosLeche"
+            android:id="@+id/input_ordeñosXDia"
+            android:text="N° De Ordeños al Día"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <CheckBox
+            android:text="Cría"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkBox"
+            android:layout_toEndOf="@+id/input_pesoVenta"
+            android:layout_marginStart="21dp"
+            android:id="@+id/checkBox2"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Levante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_marginTop="12dp"
+            android:id="@+id/checkBox3"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Ceba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/checkBox3"
+            android:layout_alignStart="@+id/checkBox2" />
+
+        <CheckBox
+            android:text="Reproducción"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox3"
+            android:layout_alignStart="@+id/checkBox3"
+            android:layout_marginTop="14dp"
+            android:id="@+id/checkBox5"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Receptoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox7"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/checkBox6"
+            android:layout_alignStart="@+id/checkBox4" />
+
+        <CheckBox
+            android:text="Queseras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox6"
+            android:layout_alignStart="@+id/checkBox6"
+            android:layout_marginTop="23dp"
+            android:id="@+id/checkBox8"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Queso en Finca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox9"
+            android:layout_alignBaseline="@+id/checkBox8"
+            android:layout_alignBottom="@+id/checkBox8"
+            android:layout_alignStart="@+id/checkBox7"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="CARNE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="33dp"
+            android:layout_below="@+id/checkBox5"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="DESTINO DE LA PRODUCCIÓN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/textView6"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/input_ordeñosXDia"
+            android:layout_alignStart="@+id/input_ordeñosXDia" />
+
+        <CheckBox
+            android:text="Autoconsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:id="@+id/checkBox"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginStart="33dp" />
+
+        <CheckBox
+            android:text="Autoconsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/checkBox6"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignEnd="@+id/checkBox5" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView6" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack"
+            android:layout_marginStart="12dp" />
+
+    </RelativeLayout>
+</LinearLayout>

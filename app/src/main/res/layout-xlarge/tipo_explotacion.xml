@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/text_tipoExplotacion"
+            android:layout_alignStart="@+id/text_tipoExplotacion"
+            android:layout_marginTop="26dp"
+            android:id="@+id/input_becerro"
+            android:text="Vaca Becerro"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_becerro"
+            android:layout_alignStart="@+id/input_becerro"
+            android:id="@+id/input_maute"
+            android:text="Vaca Maute"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_maute"
+            android:layout_alignStart="@+id/input_maute"
+            android:id="@+id/input_novillo"
+            android:text="Vaca Novillo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <TextView
+            android:text="CLASE DE EXPLOTACIÓN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_novillo"
+            android:layout_alignStart="@+id/input_novillo"
+            android:layout_marginTop="23dp"
+            android:id="@+id/text_claseExplotacion"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="Leche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:id="@+id/radioButton13"
+            android:textSize="18sp"
+            android:layout_below="@+id/text_claseExplotacion"
+            android:layout_alignStart="@+id/text_claseExplotacion"
+            android:layout_marginStart="15dp" />
+
+        <RadioButton
+            android:text="Carne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:id="@+id/radioButton14"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/radioButton13"
+            android:layout_alignBottom="@+id/radioButton13"
+            android:layout_toEndOf="@+id/radioButton13" />
+
+        <RadioButton
+            android:text="Doble Proposito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="91dp"
+            android:id="@+id/radioButton15"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/radioButton14"
+            android:layout_alignBottom="@+id/radioButton14"
+            android:layout_toEndOf="@+id/radioButton14" />
+
+        <RadioButton
+            android:text="Extensivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/radioButton13"
+            android:layout_marginTop="27dp"
+            android:id="@+id/radioButton19"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="SISTEMA DE EXPLOTACIÓN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:id="@+id/textView4"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/radioButton15"
+            android:layout_alignStart="@+id/text_claseExplotacion" />
+
+        <RadioButton
+            android:text="Intensivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/radioButton19"
+            android:layout_alignStart="@+id/radioButton14"
+            android:id="@+id/radioButton20"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="Semi Intensivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radioButton20"
+            android:layout_alignStart="@+id/radioButton15"
+            android:id="@+id/radioButton22"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="RAZA PREDOMINANTE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton19"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginTop="40dp"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:id="@+id/input_cebu"
+            android:text="Cebú"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_cebu"
+            android:layout_alignEnd="@+id/input_cebu"
+            android:id="@+id/input_mestizo"
+            android:text="Mestizo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_mestizo"
+            android:layout_alignStart="@+id/input_mestizo"
+            android:id="@+id/input_criollo"
+            android:text="Criollo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_criollo"
+            android:layout_alignEnd="@+id/input_criollo"
+            android:id="@+id/input_holstein"
+            android:text="Holstein"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_holstein"
+            android:layout_alignStart="@+id/input_holstein"
+            android:id="@+id/input_suizo"
+            android:text="P. Suizo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <TextView
+            android:text="Otro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_suizo"
+            android:layout_alignStart="@+id/input_suizo"
+            android:layout_marginTop="14dp"
+            android:id="@+id/text_otro"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese raza"
+            android:ems="10"
+            android:layout_below="@+id/input_suizo"
+            android:layout_alignEnd="@+id/radioButton20"
+            android:id="@+id/input_otroPred"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/input_otroPred"
+            android:layout_toEndOf="@+id/input_otroPred"
+            android:layout_marginStart="20dp"
+            android:id="@+id/input_ingreseOtro" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_otroPred"
+            android:layout_alignEnd="@+id/input_suizo"
+            android:id="@+id/input_totalPred"
+            android:text="Total"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/input_totalPred"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/textView5" />
+
+        <TextView
+            android:text="TIPO DE EXPLOTACIÓN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/text_tipoExplotacion"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

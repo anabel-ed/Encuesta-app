@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      SIEMBRA"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView15"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText24"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/input_cosechadora"
+            android:layout_alignStart="@+id/input_cosechadora"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="33dp"
+            android:id="@+id/input_asperjadora"
+            android:layout_below="@+id/editText24"
+            android:layout_alignStart="@+id/editText24"
+            android:text="Asperjadora"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_asperjadora"
+            android:layout_alignStart="@+id/input_asperjadora"
+            android:id="@+id/editText30"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText30"
+            android:layout_alignStart="@+id/editText30"
+            android:layout_marginTop="31dp"
+            android:id="@+id/input_carreta"
+            android:text="Carreta o Zorra"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_carreta"
+            android:layout_alignStart="@+id/input_carreta"
+            android:id="@+id/editText34"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText34"
+            android:layout_alignStart="@+id/editText34"
+            android:layout_marginTop="41dp"
+            android:id="@+id/input_rotativa"
+            android:text="Rotativa"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText36"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/input_rotativa"
+            android:layout_alignStart="@+id/input_rotativa"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText36"
+            android:layout_alignStart="@+id/editText36"
+            android:layout_marginTop="37dp"
+            android:id="@+id/input_rolo"
+            android:text="Rolo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_rolo"
+            android:layout_alignStart="@+id/input_rolo"
+            android:id="@+id/editText38"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText38"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="31dp"
+            android:id="@+id/input_cosechadora"
+            android:text="Cosechadora"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

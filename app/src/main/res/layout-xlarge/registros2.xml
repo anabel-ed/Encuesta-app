@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      PESO AL AÑO"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView23"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="28dp"
+            android:id="@+id/radioButton46"
+            android:layout_below="@+id/textView23"
+            android:layout_alignStart="@+id/textView23"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton46"
+            android:layout_alignStart="@+id/radioButton46"
+            android:layout_marginTop="18dp"
+            android:id="@+id/radioButton47"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_alignStart="@+id/radioButton47"
+            android:layout_marginTop="36dp"
+            android:id="@+id/radioButton48"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Mensual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton48"
+            android:layout_alignStart="@+id/radioButton48"
+            android:layout_marginTop="32dp"
+            android:id="@+id/checkBox10"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark" />
+
+        <CheckBox
+            android:text="Semanal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkBox10"
+            android:layout_toEndOf="@+id/checkBox10"
+            android:layout_marginStart="60dp"
+            android:id="@+id/checkBox11"
+            android:textSize="18sp"
+            android:textColor="?android:attr/editTextColor" />
+
+        <CheckBox
+            android:text="Diario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox11"
+            android:layout_toEndOf="@+id/checkBox11"
+            android:layout_marginStart="71dp"
+            android:id="@+id/checkBox12"
+            android:textSize="18sp"
+            android:textColor="?android:attr/editTextColor" />
+
+        <TextView
+            android:text="      PASAJE DE LA LECHE"
+            android:layout_width="match_parent"
+            android:id="@+id/textView24"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/radioButton47"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/textView23" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton50"
+            android:textSize="18sp"
+            android:layout_below="@+id/checkBox10"
+            android:layout_alignStart="@+id/checkBox10"
+            android:layout_marginTop="27dp" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:lineSpacingExtra="1sp"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/input_observaciones"
+            android:layout_width="75dp" />
+
+        <TextView
+            android:text="Observaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="47dp"
+            android:id="@+id/textView25"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/radioButton50"
+            android:layout_alignStart="@+id/radioButton50" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_marginTop="23dp"
+            android:id="@+id/input_observaciones"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/textView25"
+            android:layout_alignStart="@+id/textView25" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack"
+            android:layout_marginStart="13dp" />
+
+    </RelativeLayout>
+</LinearLayout>

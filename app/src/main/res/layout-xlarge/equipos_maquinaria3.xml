@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      SIEMBRA"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView12"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText13"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/editText10"
+            android:layout_alignStart="@+id/editText10"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_tractores4"
+            android:layout_alignStart="@+id/input_tractores4"
+            android:id="@+id/editText22"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_galpones"
+            android:layout_alignStart="@+id/input_galpones"
+            android:id="@+id/editText26"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText26"
+            android:layout_alignEnd="@+id/input_galpones"
+            android:layout_marginTop="43dp"
+            android:id="@+id/input_silos"
+            android:text="Silos"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_silos"
+            android:layout_alignStart="@+id/input_silos"
+            android:id="@+id/editText29"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText32"
+            android:layout_below="@+id/input_sembradora"
+            android:layout_alignStart="@+id/input_sembradora"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="41dp"
+            android:id="@+id/input_tractores4"
+            android:text="Tractores 4x4"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText13"
+            android:layout_alignStart="@+id/editText13" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="42dp"
+            android:id="@+id/input_galpones"
+            android:text="Galpones"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText22"
+            android:layout_alignStart="@+id/editText22" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="48dp"
+            android:id="@+id/input_sembradora"
+            android:text="Sembradora"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText29"
+            android:layout_alignStart="@+id/editText29" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText32"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="31dp"
+            android:id="@+id/editText10"
+            android:text="Tractores 4x2"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

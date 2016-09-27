@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app=""
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="UBICACIÓN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_nombreFinca"
+            android:layout_alignStart="@+id/input_nombreFinca"
+            android:layout_marginTop="23dp"
+            android:id="@+id/text_ubicacion"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonNext"
+            android:layout_alignEnd="@+id/text_ubicacion"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Caserio"
+            android:ems="10"
+            android:id="@+id/input_caserio"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/text_ubicacion"
+            android:layout_alignStart="@+id/text_ubicacion"
+            android:layout_marginTop="16dp"
+            android:layout_width="500dp" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Sector"
+            android:ems="10"
+            android:id="@+id/input_sector"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/input_caserio"
+            android:layout_alignStart="@+id/input_caserio" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Parroquia"
+            android:ems="10"
+            android:id="@+id/input_parroquia"
+            android:layout_below="@+id/input_sector"
+            android:layout_alignStart="@+id/input_sector"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Municipio"
+            android:ems="10"
+            android:layout_below="@+id/input_parroquia"
+            android:layout_alignStart="@+id/input_parroquia"
+            android:id="@+id/input_municipio"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Estado"
+            android:ems="10"
+            android:layout_below="@+id/input_municipio"
+            android:layout_alignStart="@+id/input_municipio"
+            android:id="@+id/input_estado"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Este"
+            android:ems="10"
+            android:layout_alignTop="@+id/input_puntoNorte"
+            android:layout_alignEnd="@+id/input_estado"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/input_puntoEste"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <RadioButton
+            android:text="Buena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_condicionVia"
+            android:layout_alignStart="@+id/text_condicionVia"
+            android:layout_marginTop="16dp"
+            android:id="@+id/radioButton16"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/radioButton16"
+            android:layout_toStartOf="@+id/input_puntoEste"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/radioButton17"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="Mala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radioButton17"
+            android:layout_toEndOf="@+id/text_condicionVia"
+            android:layout_marginStart="25dp"
+            android:id="@+id/radioButton18"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="En Producción"
+            android:ems="10"
+            android:layout_below="@+id/text_superficie"
+            android:layout_alignStart="@+id/text_superficie"
+            android:layout_marginTop="20dp"
+            android:id="@+id/input_enProduccion"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Aprovechables"
+            android:ems="10"
+            android:layout_alignTop="@+id/input_enProduccion"
+            android:layout_alignStart="@+id/radioButton18"
+            android:layout_marginStart="46dp"
+            android:id="@+id/input_aprovechable"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="No Aprovechables"
+            android:ems="10"
+            android:layout_below="@+id/input_enProduccion"
+            android:layout_alignStart="@+id/input_enProduccion"
+            android:id="@+id/input_noAprovechable"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Sembradas"
+            android:ems="10"
+            android:layout_below="@+id/input_aprovechable"
+            android:layout_alignEnd="@+id/input_aprovechable"
+            android:id="@+id/input_sembradas"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Riego"
+            android:ems="10"
+            android:layout_below="@+id/input_noAprovechable"
+            android:layout_alignStart="@+id/input_noAprovechable"
+            android:id="@+id/input_riego"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_below="@+id/input_sembradas"
+            android:layout_alignEnd="@+id/input_sembradas"
+            android:id="@+id/input_totalSuperficie"
+            android:text="Total"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <TextView
+            android:text="SUPERFICIE (Ha)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:id="@+id/text_superficie"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/radioButton16"
+            android:layout_alignStart="@+id/radioButton16" />
+
+        <TextView
+            android:text="CONDICIONES DE LA VÍA DE ACCESO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:id="@+id/text_condicionVia"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/input_puntoNorte"
+            android:layout_alignStart="@+id/input_puntoNorte" />
+
+        <TextView
+            android:text="PUNTOS GPS UTM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:id="@+id/text_puntosGps"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/input_estado"
+            android:layout_alignStart="@+id/input_estado" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:id="@+id/input_puntoNorte"
+            android:text="Norte"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/text_puntosGps"
+            android:layout_alignStart="@+id/text_puntosGps" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Nombre de la Finca"
+            android:ems="10"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/input_nombreFinca"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

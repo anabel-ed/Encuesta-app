@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      MANEJO DE GANADERÍA"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView8"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_bebederos"
+            android:layout_alignStart="@+id/input_bebederos"
+            android:id="@+id/editText11"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_comederos"
+            android:layout_alignStart="@+id/input_comederos"
+            android:id="@+id/editText15"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_cerco"
+            android:layout_alignStart="@+id/input_cerco"
+            android:id="@+id/editText20"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_nPotreros"
+            android:layout_alignStart="@+id/input_nPotreros"
+            android:id="@+id/editText23"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText25"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/input_hasPotrero"
+            android:layout_alignStart="@+id/input_hasPotrero" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="22dp"
+            android:id="@+id/input_comederos"
+            android:text="Comederos"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText11"
+            android:layout_alignStart="@+id/editText11" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="18dp"
+            android:id="@+id/input_cerco"
+            android:text="Cerco Eléctrico"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText15"
+            android:layout_alignStart="@+id/editText15" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="24dp"
+            android:id="@+id/input_nPotreros"
+            android:text="N° de Potreros"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText20"
+            android:layout_alignStart="@+id/editText20" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="24dp"
+            android:id="@+id/input_hasPotrero"
+            android:text="Has x Potrero"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText23"
+            android:layout_alignStart="@+id/editText23" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="21dp"
+            android:id="@+id/input_plantaElectrica"
+            android:layout_below="@+id/editText25"
+            android:layout_alignStart="@+id/editText25"
+            android:text="Planta Eléctrica (KVA)"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_plantaElectrica"
+            android:layout_alignStart="@+id/input_plantaElectrica"
+            android:id="@+id/editText27"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText27"
+            android:textSize="18sp"
+            android:layout_width="75dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="11dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="33dp"
+            android:id="@+id/input_bebederos"
+            android:text="Bebederos"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_marginStart="42dp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

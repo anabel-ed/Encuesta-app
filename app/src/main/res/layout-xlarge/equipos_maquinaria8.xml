@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      REPRODUCCIÓN"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView18"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_tanqueNitrogeno"
+            android:layout_alignStart="@+id/input_tanqueNitrogeno"
+            android:id="@+id/editText41"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText50"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/input_inseminacion"
+            android:layout_alignStart="@+id/input_inseminacion"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_pistoleta"
+            android:layout_alignStart="@+id/input_pistoleta"
+            android:id="@+id/editText55"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_termo"
+            android:layout_alignStart="@+id/input_termo"
+            android:id="@+id/editText57"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="68dp"
+            android:id="@+id/input_inseminacion"
+            android:text="Caja de Inseminación"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_below="@+id/editText41"
+            android:layout_alignStart="@+id/editText41" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_pistoleta"
+            android:text="Pistoleta de Inseminación"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/editText50" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="81dp"
+            android:id="@+id/input_termo"
+            android:text="Termo para Descongelar Pajuelas"
+            android:layout_width="300dp"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_below="@+id/editText55"
+            android:layout_alignStart="@+id/editText55" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:lineSpacingExtra="1sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText57"
+            android:textSize="18sp"
+            android:layout_width="75dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="12dp"
+            android:layout_width="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="48dp"
+            android:id="@+id/input_tanqueNitrogeno"
+            android:text="Tanque de Nitrógeno"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_width="300dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

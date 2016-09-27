@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_toros"
+            android:layout_alignEnd="@+id/input_toros"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editText6"
+            android:text="Toros Reproductores"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText6"
+            android:layout_alignEnd="@+id/editText6"
+            android:layout_marginTop="17dp"
+            android:id="@+id/input_vacasRepro"
+            android:text="Vacas en Producción"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_vacasRepro"
+            android:layout_alignStart="@+id/input_vacasRepro"
+            android:layout_marginTop="13dp"
+            android:id="@+id/input_vacasSecas"
+            android:text="Vacas Secas"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_vacasSecas"
+            android:layout_alignStart="@+id/input_vacasSecas"
+            android:layout_marginTop="12dp"
+            android:id="@+id/input_novillos"
+            android:text="Novillos"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_novillos"
+            android:layout_alignEnd="@+id/input_novillos"
+            android:layout_marginTop="15dp"
+            android:id="@+id/input_novillas"
+            android:text="Novillas"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_novillas"
+            android:layout_alignEnd="@+id/input_novillas"
+            android:layout_marginTop="15dp"
+            android:id="@+id/input_mautes"
+            android:text="Mautes"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_mautes"
+            android:layout_alignStart="@+id/input_mautes"
+            android:layout_marginTop="14dp"
+            android:id="@+id/inút_mautas"
+            android:text="Mautas"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <TextView
+            android:text="Otros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_becerras"
+            android:layout_alignStart="@+id/input_becerras"
+            android:layout_marginTop="20dp"
+            android:id="@+id/text_otros"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese nombre"
+            android:ems="10"
+            android:layout_marginStart="26dp"
+            android:id="@+id/input_ingreseNombre"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignBaseline="@+id/text_otros"
+            android:layout_alignBottom="@+id/text_otros"
+            android:layout_toEndOf="@+id/text_otros" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_becerros"
+            android:text="Becerros"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/inút_mautas"
+            android:layout_alignStart="@+id/inút_mautas"
+            android:layout_marginTop="13dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_becerras"
+            android:text="Becerras"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/input_becerros"
+            android:layout_alignStart="@+id/input_becerros"
+            android:layout_marginTop="13dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_alignBottom="@+id/input_ingreseNombre"
+            android:layout_toEndOf="@+id/input_ingreseNombre"
+            android:layout_marginStart="45dp"
+            android:id="@+id/input_cantidadOtros"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_ingreseNombre"
+            android:layout_alignStart="@+id/text_otros"
+            android:layout_marginTop="12dp"
+            android:id="@+id/input_total"
+            android:text="Total"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_total"
+            android:layout_alignStart="@+id/input_total"
+            android:layout_marginTop="13dp"
+            android:id="@+id/input_uA"
+            android:text="UA"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/input_uA"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="51dp"
+            android:id="@+id/input_toros"
+            android:text="Toros"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

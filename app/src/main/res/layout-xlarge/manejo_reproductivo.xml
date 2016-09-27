@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton52"
+            android:layout_alignStart="@+id/radioButton52"
+            android:layout_marginTop="19dp"
+            android:id="@+id/radioButton53"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton54"
+            android:layout_alignStart="@+id/radioButton54"
+            android:layout_marginTop="16dp"
+            android:id="@+id/radioButton55"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/radioButton54"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView38"
+            android:layout_alignStart="@+id/radioButton53" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioButton57"
+            android:textSize="18sp"
+            android:layout_below="@+id/radioButton56"
+            android:layout_alignStart="@+id/radioButton56" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView40"
+            android:layout_alignStart="@+id/radioButton57"
+            android:layout_marginTop="33dp"
+            android:id="@+id/radioButton68"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton68"
+            android:layout_alignStart="@+id/radioButton68"
+            android:layout_marginTop="19dp"
+            android:id="@+id/radioButton69"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="      MONTA CONTROLADA REEMPLAZO DE PADROTES"
+            android:layout_width="730dp"
+            android:layout_marginTop="33dp"
+            android:id="@+id/textView38"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/radioButton53"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      TRANSFERENCIA DE EMBRIONES"
+            android:layout_width="730dp"
+            android:layout_marginTop="37dp"
+            android:id="@+id/textView40"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/radioButton57"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton56"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/textView39"
+            android:layout_alignStart="@+id/radioButton55" />
+
+        <TextView
+            android:text="      INSEMINACIÓN"
+            android:layout_width="730dp"
+            android:id="@+id/textView39"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/radioButton55"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      TÉCNICA UTILIZADA"
+            android:layout_width="730dp"
+            android:layout_marginTop="57dp"
+            android:id="@+id/textView26"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp"
+            android:background="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      MONTA NATURAL"
+            android:layout_width="730dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView36"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/textView26"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:lineSpacingExtra="1sp"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/buttonNext"
+            android:layout_width="75dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/radioButton69" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/radioButton52"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView36"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

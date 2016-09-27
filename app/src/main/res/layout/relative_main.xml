@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <EditText
+        android:id="@+id/input_nombreApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/input_fecha"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/input_fecha"
+        android:textColor="?attr/colorControlNormal" />
+
+    <EditText
+        android:id="@+id/input_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/input_nombreApellido"
+        android:layout_alignEnd="@+id/input_nombreApellido" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/input_fecha"
+        android:text="Fecha de la Encuesta"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="?android:attr/colorControlNormal"
+        android:layout_alignEnd="@+id/input_cedula" />
+
+    <EditText
+        android:id="@+id/input_cedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/input_apellido"
+        android:layout_alignParentStart="true"
+        android:text="Documento de Identidad"
+        android:textIsSelectable="false"
+        android:textColor="?attr/colorControlNormal"
+        android:layout_alignEnd="@+id/input_telefono1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/input_telefono1"
+        android:layout_below="@+id/input_cedula"
+        android:layout_alignParentStart="true"
+        android:text="Teléfono Fijo"
+        android:textColor="?attr/colorControlNormal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/input_telefono2"
+        android:layout_below="@+id/input_telefono1"
+        android:layout_alignParentStart="true"
+        android:text="Teléfono Movil"
+        android:textColor="?attr/colorControlNormal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/input_correo"
+        android:layout_below="@+id/input_telefono2"
+        android:layout_alignParentStart="true"
+        android:text="Correo Electrónico"
+        android:textColor="?attr/colorControlNormal" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/opciones_educacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="horizontal"/>
+
+    <RadioButton
+        android:text="Postgrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioButton3"
+        android:layout_toEndOf="@+id/radioButton4"
+        android:layout_marginStart="53dp"
+        android:id="@+id/radioButton5" />
+
+    <RadioButton
+        android:text="Ninguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignStart="@+id/radioButton5"
+        android:id="@+id/radioButton6" />
+
+    <RadioButton
+        android:text="Universitaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+
+    <RadioButton
+        android:text="Secundaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:layout_above="@+id/radioButton4"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:text="Primaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2"
+        android:layout_above="@+id/radioButton3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIVEL DE EDUCACIÓN"
+        android:id="@+id/text_sabeLeer"
+        android:height="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_above="@+id/radioButton5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

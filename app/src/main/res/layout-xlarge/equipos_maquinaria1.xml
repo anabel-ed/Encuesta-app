@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      MANEJO DE GANADERÍA"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView11"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_corrales"
+            android:layout_alignStart="@+id/input_corrales"
+            android:id="@+id/editText12"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText12"
+            android:layout_alignStart="@+id/editText12"
+            android:layout_marginTop="40dp"
+            android:id="@+id/input_manga"
+            android:text="Manga"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_manga"
+            android:layout_alignStart="@+id/input_manga"
+            android:id="@+id/editText14"
+            android:text="ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText14"
+            android:layout_alignEnd="@+id/input_manga"
+            android:layout_marginTop="29dp"
+            android:id="@+id/input_bretes"
+            android:text="Bretes"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText16"
+            android:layout_below="@+id/input_bretes"
+            android:layout_alignStart="@+id/input_bretes"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText16"
+            android:layout_alignEnd="@+id/input_bretes"
+            android:layout_marginTop="28dp"
+            android:id="@+id/input_romana"
+            android:text="Romana"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_romana"
+            android:layout_alignStart="@+id/input_romana"
+            android:id="@+id/editText19"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="normal|italic" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/editText19"
+            android:layout_alignStart="@+id/editText19"
+            android:layout_marginTop="41dp"
+            android:id="@+id/input_salaOrdeño"
+            android:text="Sala de Ordeño"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_salaOrdeño"
+            android:layout_alignStart="@+id/input_salaOrdeño"
+            android:id="@+id/editText21"
+            android:text="Ingrese las observaciones"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText21"
+            android:textSize="18sp"
+            android:layout_width="75dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="11dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="33dp"
+            android:id="@+id/input_corrales"
+            android:text="Corrales"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

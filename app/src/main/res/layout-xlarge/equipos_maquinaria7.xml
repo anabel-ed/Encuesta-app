@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      ORDEÑO"
+            android:layout_width="match_parent"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView17"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_paletas"
+            android:layout_alignStart="@+id/input_paletas"
+            android:id="@+id/editText35"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_paletasFondo"
+            android:layout_alignStart="@+id/input_paletasFondo"
+            android:id="@+id/editText45"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText49"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:layout_below="@+id/input_reactivo"
+            android:layout_alignStart="@+id/input_reactivo"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_ordeñoTecho"
+            android:layout_alignStart="@+id/input_ordeñoTecho"
+            android:id="@+id/editText51"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/editText52"
+            android:layout_alignStart="@+id/editText52"
+            android:id="@+id/editText53"
+            android:text="Ingrese las observaciones"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="59dp"
+            android:id="@+id/input_paletasFondo"
+            android:text="Paletas para Fondo Negro"
+            android:textColor="?android:attr/textColorTertiary"
+            android:layout_below="@+id/editText35"
+            android:layout_alignStart="@+id/editText35" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="47dp"
+            android:id="@+id/input_reactivo"
+            android:text="Reactivo para CMT"
+            android:textColor="?android:attr/textColorTertiary"
+            android:layout_width="300dp"
+            android:layout_below="@+id/editText45"
+            android:layout_alignStart="@+id/editText45" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="60dp"
+            android:id="@+id/input_ordeñoTecho"
+            android:text="Ordeño con Techo"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_below="@+id/editText49"
+            android:layout_alignStart="@+id/editText49" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="51dp"
+            android:id="@+id/editText52"
+            android:text="Ordeño con Piso de Cemento"
+            android:textColor="?android:attr/textColorHint"
+            android:layout_below="@+id/editText51"
+            android:layout_alignStart="@+id/editText51" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText53"
+            android:lineSpacingExtra="1sp"
+            android:textSize="18sp"
+            android:layout_width="75dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/buttonBack"
+            android:layout_alignBottom="@+id/buttonBack"
+            android:layout_toEndOf="@+id/buttonBack"
+            android:layout_width="100dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="34dp"
+            android:id="@+id/input_paletas"
+            android:text="Paletas para CMT"
+            android:textColor="?android:attr/textColorTertiary"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp" />
+    </RelativeLayout>
+</LinearLayout>

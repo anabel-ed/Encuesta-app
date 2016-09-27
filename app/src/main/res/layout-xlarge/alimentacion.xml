@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Tipo de Pasto"
+            android:ems="10"
+            android:layout_below="@+id/input_tipoPasto"
+            android:layout_alignStart="@+id/input_tipoPasto"
+            android:id="@+id/input_tipoPasto2"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignTop="@+id/input_tipoPasto"
+            android:layout_toEndOf="@+id/input_tipoPasto"
+            android:layout_marginStart="30dp"
+            android:id="@+id/editText54"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editText54"
+            android:layout_alignEnd="@+id/editText54"
+            android:id="@+id/editText56"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignTop="@+id/radioButton31"
+            android:layout_toEndOf="@+id/radioButton31"
+            android:layout_marginStart="109dp"
+            android:id="@+id/editText58"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editText59"
+            android:layout_alignStart="@+id/editText59"
+            android:id="@+id/editText60"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText61"
+            android:layout_below="@+id/editText60"
+            android:layout_alignStart="@+id/editText60"
+            android:textColor="?android:attr/colorControlNormal"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText59"
+            android:textSize="18sp"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText58"
+            android:layout_alignStart="@+id/editText58" />
+
+        <RadioButton
+            android:text="Alemán"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton34"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/editText61"
+            android:layout_alignStart="@+id/radioButton33"
+            android:layout_below="@+id/editText60" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editText61"
+            android:layout_alignEnd="@+id/editText61"
+            android:id="@+id/editText63"
+            android:text="Ingrese otro tipo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <RadioButton
+            android:text="Estrella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton32"
+            android:textSize="18sp"
+            android:layout_below="@+id/editText58"
+            android:layout_alignStart="@+id/radioButton31" />
+
+        <RadioButton
+            android:text="Guinea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton33"
+            android:textSize="18sp"
+            android:layout_below="@+id/editText59"
+            android:layout_alignStart="@+id/radioButton32" />
+
+        <RadioButton
+            android:text="Otro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton37"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/editText63"
+            android:layout_alignBottom="@+id/editText63"
+            android:layout_alignStart="@+id/radioButton34" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_cañaAzucar"
+            android:layout_alignEnd="@+id/input_cañaAzucar"
+            android:id="@+id/input_areaPromedio"
+            android:text="Área Promedio"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_nPotreros"
+            android:layout_alignStart="@+id/input_nPotreros"
+            android:id="@+id/input_silo"
+            android:text="Silo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_areaPromedio"
+            android:layout_alignStart="@+id/input_areaPromedio"
+            android:id="@+id/input_cultivo"
+            android:text="Cultivo"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/input_silo"
+            android:layout_alignEnd="@+id/input_silo"
+            android:id="@+id/editText66"
+            android:text="Toneladas de Silo Cosechadas"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginStart="29dp"
+            android:id="@+id/input_nPotreros"
+            android:text="N° de Potreros"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignBaseline="@+id/input_cañaAzucar"
+            android:layout_alignBottom="@+id/input_cañaAzucar"
+            android:layout_alignStart="@+id/editText56" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/input_cultivo"
+            android:layout_alignStart="@+id/input_cultivo"
+            android:id="@+id/editText67"
+            android:text="Ingrese observaciones"
+            android:textColor="?android:attr/colorControlNormal" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:lineSpacingExtra="1sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView21"
+            android:textSize="18sp"
+            android:layout_width="75dp" />
+
+        <TextView
+            android:text="      TIPO DE PASTO DE PASTOREO Y ÁREAS SEMBRADAS"
+            android:layout_width="match_parent"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView20"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/input_tipoPasto2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/radioButton42"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView21"
+            android:layout_alignStart="@+id/radioButton37" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/input_kgsDiario"
+            android:textSize="18sp"
+            android:text="Kgs/días"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignBaseline="@+id/radioButton42"
+            android:layout_alignBottom="@+id/radioButton42"
+            android:layout_toEndOf="@+id/radioButton37" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton43"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/input_kgsDiario"
+            android:layout_alignStart="@+id/editText66" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:layout_alignStart="@+id/radioButton42"
+            android:layout_marginTop="16dp"
+            android:id="@+id/radioButton44"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/input_kgsDiarios"
+            android:text="Kgs/días"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignBaseline="@+id/radioButton44"
+            android:layout_alignBottom="@+id/radioButton44"
+            android:layout_toStartOf="@+id/input_nPotreros" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/input_kgsDiarios"
+            android:layout_alignStart="@+id/radioButton43"
+            android:id="@+id/radioButton45"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Suministra Concentrado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:id="@+id/textView22"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/input_kgsDiario"
+            android:layout_alignEnd="@+id/buttonNext" />
+
+        <TextView
+            android:text="Suministra Minerales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/editText67"
+            android:layout_alignStart="@+id/editText67" />
+
+        <RadioButton
+            android:text="Bracharia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/radioButton31"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView20"
+            android:layout_alignEnd="@+id/textView21" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_cañaAzucar"
+            android:text="Caña de azúcar"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_below="@+id/editText63"
+            android:layout_alignStart="@+id/input_tipoPasto2" />
+
+        <TextView
+            android:text="      PASTO DE CORTE"
+            android:layout_width="match_parent"
+            android:layout_marginTop="45dp"
+            android:id="@+id/textView19"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/buttonBack" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Tipo de pasto"
+            android:ems="10"
+            android:layout_marginTop="17dp"
+            android:id="@+id/input_tipoPasto"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_marginStart="48dp"
+            android:layout_below="@+id/textView19"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

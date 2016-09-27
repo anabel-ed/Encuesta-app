@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="      RECIBE ASISTENCIA TÉCNICA"
+            android:layout_width="730dp"
+            android:layout_marginTop="29dp"
+            android:id="@+id/textView27"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="¿De quién?"
+            android:ems="10"
+            android:layout_marginStart="30dp"
+            android:id="@+id/input_deQuien"
+            android:textColor="?android:attr/colorControlNormal"
+            android:layout_alignBottom="@+id/radioButton49"
+            android:layout_toEndOf="@+id/radioButton49" />
+
+        <CheckBox
+            android:text="Leptospira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText62"
+            android:layout_alignStart="@+id/checkBox13"
+            android:layout_marginTop="14dp"
+            android:id="@+id/checkBox15"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText65"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBottom="@+id/checkBox15"
+            android:layout_alignStart="@+id/editText62"
+            android:layout_width="150dp" />
+
+        <CheckBox
+            android:text="Virales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox15"
+            android:layout_alignStart="@+id/checkBox14"
+            android:id="@+id/checkBox16"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_alignTop="@+id/editText65"
+            android:layout_alignStart="@+id/editText64"
+            android:id="@+id/editText68"
+            android:textSize="18sp"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="150dp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText62"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginStart="17dp"
+            android:layout_alignBaseline="@+id/checkBox13"
+            android:layout_alignBottom="@+id/checkBox13"
+            android:layout_toEndOf="@+id/checkBox17"
+            android:layout_width="150dp" />
+
+        <CheckBox
+            android:text="Rabia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:id="@+id/checkBox14"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/editText64"
+            android:layout_alignBottom="@+id/editText64"
+            android:layout_toEndOf="@+id/editText62" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText70"
+            android:layout_alignBottom="@+id/checkBox17"
+            android:layout_alignStart="@+id/editText65"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="150dp" />
+
+        <CheckBox
+            android:text="Brucella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox18"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/editText70"
+            android:layout_alignStart="@+id/checkBox16" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText71"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBottom="@+id/checkBox18"
+            android:layout_alignStart="@+id/editText68"
+            android:layout_width="150dp" />
+
+        <CheckBox
+            android:text="Triple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/checkBox19"
+            android:layout_below="@+id/checkBox17"
+            android:layout_alignStart="@+id/checkBox17"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_below="@+id/editText70"
+            android:layout_alignStart="@+id/editText70"
+            android:id="@+id/editText72"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="150dp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText73"
+            android:text="Fecha"
+            android:layout_alignBottom="@+id/checkBox19"
+            android:layout_alignStart="@+id/editText71"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="150dp" />
+
+        <CheckBox
+            android:text="Endoparásitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView29"
+            android:layout_alignStart="@+id/checkBox19"
+            android:layout_marginTop="14dp"
+            android:id="@+id/checkBox21"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Ectoparásitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox21"
+            android:layout_alignStart="@+id/checkBox21"
+            android:layout_marginTop="19dp"
+            android:id="@+id/checkBox22"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Tipo"
+            android:ems="10"
+            android:layout_alignBottom="@+id/checkBox21"
+            android:layout_alignStart="@+id/editText72"
+            android:layout_marginStart="18dp"
+            android:id="@+id/editText74"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Tipo"
+            android:ems="10"
+            android:layout_alignBottom="@+id/checkBox22"
+            android:layout_alignStart="@+id/editText74"
+            android:id="@+id/editText75"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Frecuencia"
+            android:ems="10"
+            android:id="@+id/editText78"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBaseline="@+id/editText74"
+            android:layout_alignBottom="@+id/editText74"
+            android:layout_toEndOf="@+id/checkBox20" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Frecuencia"
+            android:ems="10"
+            android:id="@+id/editText79"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBaseline="@+id/editText75"
+            android:layout_alignBottom="@+id/editText75"
+            android:layout_alignStart="@+id/editText78" />
+
+        <CheckBox
+            android:text="Brucella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView34"
+            android:layout_alignStart="@+id/checkBox22"
+            android:layout_marginTop="15dp"
+            android:id="@+id/checkBox23"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText80"
+            android:text="Última Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBottom="@+id/checkBox23"
+            android:layout_toEndOf="@+id/checkBox22" />
+
+        <CheckBox
+            android:text="Leptospira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox23"
+            android:layout_alignStart="@+id/checkBox18"
+            android:id="@+id/checkBox24"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Otras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox20"
+            android:textSize="18sp"
+            android:layout_above="@+id/textView29"
+            android:layout_alignEnd="@+id/checkBox14" />
+
+        <CheckBox
+            android:text="Clostridiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/checkBox17"
+            android:textSize="18sp"
+            android:layout_below="@+id/checkBox15"
+            android:layout_alignStart="@+id/checkBox15" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText64"
+            android:textSize="18sp"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="150dp"
+            android:layout_alignBaseline="@+id/editText62"
+            android:layout_alignBottom="@+id/editText62"
+            android:layout_alignStart="@+id/editText81" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_marginStart="28dp"
+            android:id="@+id/editText81"
+            android:textSize="18sp"
+            android:text="Última fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBottom="@+id/checkBox24"
+            android:layout_toEndOf="@+id/checkBox24" />
+
+        <CheckBox
+            android:text="Otras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox23"
+            android:layout_alignStart="@+id/checkBox23"
+            android:layout_marginTop="11dp"
+            android:id="@+id/checkBox25"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese nombre"
+            android:ems="10"
+            android:id="@+id/editText84"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBaseline="@+id/editText83"
+            android:layout_alignBottom="@+id/editText83"
+            android:layout_alignStart="@+id/editText80"
+            android:layout_width="300dp" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText83"
+            android:text="Última fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignBaseline="@+id/checkBox25"
+            android:layout_alignBottom="@+id/checkBox25"
+            android:layout_alignStart="@+id/editText81" />
+
+        <TextView
+            android:text="      SECADO DE LA VACA"
+            android:layout_width="730dp"
+            android:layout_marginTop="11dp"
+            android:id="@+id/textView35"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/editText84"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:text="Aftosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/checkBox13"
+            android:textSize="18sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/textView28"
+            android:layout_alignStart="@+id/radioButton49"
+            android:layout_marginStart="11dp" />
+
+        <CheckBox
+            android:text="Secado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView35"
+            android:layout_alignStart="@+id/checkBox25"
+            android:layout_marginTop="20dp"
+            android:id="@+id/checkBox26"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Inducido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox26"
+            android:layout_alignStart="@+id/checkBox20"
+            android:id="@+id/checkBox27"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:text="Producto Utilizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox26"
+            android:layout_alignStart="@+id/checkBox26"
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox28"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Ingrese nombre"
+            android:ems="10"
+            android:layout_below="@+id/checkBox27"
+            android:layout_alignEnd="@+id/checkBox18"
+            android:id="@+id/editText85"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:text="      DESPARASITACIONES"
+            android:layout_width="730dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView29"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/checkBox19"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      PRUEBAS"
+            android:layout_width="730dp"
+            android:layout_marginTop="28dp"
+            android:id="@+id/textView34"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/checkBox22"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      VACUNAS APLÍCADAS ANUALMENTE"
+            android:layout_width="730dp"
+            android:layout_marginTop="54dp"
+            android:id="@+id/textView28"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_height="26dp"
+            android:layout_below="@+id/input_deQuien"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton51"
+            android:textSize="18sp"
+            android:layout_below="@+id/radioButton49"
+            android:layout_alignStart="@+id/radioButton49"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/checkBox19" />
+
+        <Button
+            android:text="Atrás"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBack"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimary"
+            android:layout_width="80dp"
+            android:lineSpacingExtra="1sp"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/radioButton51" />
+
+        <RadioButton
+            android:text="Sí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radioButton49"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>
