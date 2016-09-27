@@ -1,0 +1,483 @@
+encuesta = {
+    "_id": "fecha",
+    "datos generales del productor": {
+        "nombre y apellido": null,
+        "documento de identidad": null,
+        "teléfono fijo": null,
+        "teléfono celular": null,
+        "correo electrónico": null,
+        "sabe leer": false,
+        "experiencia": null,
+        "lugar de habitacion": null,
+        "nivel de educacion": {
+            "primaria": false,
+            "secundaria": false,
+            "universitaria": false,
+            "postgrado": false,
+            "ninguna": false
+        },
+    },
+    "datos de la finca": {
+        "nombre": null,
+        "ubicacion": {
+            "sector": null,
+            "caserio": null,
+            "parroquia": null,
+            "municipio": null,
+            "estado": null
+        },
+        "puntos gps utm": {
+            "norte": null,
+            "este": null
+        },
+        "condiciones de la via de acceso": {
+            "buena": false,
+            "regular": false,
+            "mala": false
+        },
+        "superficie": {
+            "en produccion": null,
+            "aprovechables": null,
+            "no aprovechables": null,
+            "sembradas": null,
+            "riego": null,
+            "total": null
+        },
+        "tipo de explotacion": {
+            "vaca becerro": null,
+            "vaca maute": null,
+            "vaca novillo": null
+        },
+        "clase de explotacion": {
+            "leche": false,
+            "carne": false,
+            "doble proposito": false
+        },
+        "sistema de explotacion": {
+            "extensivo": false,
+            "intensivo": false,
+            "semi intensivo": false
+        },
+        "raza predominante": {
+            "cebú": null,
+            "mestizo": null,
+            "criollo": null,
+            "holstein": null,
+            "p. suizo": null,
+            "otro": null,
+            "total": null
+        },
+        "inventario de animales según edad": {
+            "toros": null,
+            "toros reproductores": null,
+            "vacas en produccion": null,
+            "vacas secas": null,
+            "novillos": null,
+            "novillas": null,
+            "mautes": null,
+            "becerros": null,
+            "becerras": null,
+            "otros": null,
+            "total": null,
+            "UA": null
+        },
+        "destino de la produccion animal": {
+            "autoconsumo": null,
+            "cria": null,
+            "levante": null,
+            "ceba": null,
+            "reproduccion": null,
+            "carne": {
+                "nro animales": null,
+                "peso promedio para la venta": null,
+                "edad para la venta": null
+            },
+            "ordeño": {
+                "nro de vacas ordeñadas": null,
+                "litros de leche": null,
+                "nro de ordeños al dia": null
+            },
+            "destino de la produccion": {
+                "autoconsumo": null,
+                "receptoria": null,
+                "queseras": null,
+                "queso en finca": null
+            },
+        },
+        "otras especies de ganado": {
+            "bufalinos": {
+                "butoros": null,
+                "bufalas": null,
+                "bubillas/os": null,
+                "bumautas/es": null,
+                "bucerros/as": null
+            },
+            "caprinos": {
+                "cabrio": null,
+                "cabra": null,
+                "cabritones": null,
+                "cabritonas": null,
+                "cabritos/as": null
+            },
+            "ovinos": {
+                "carnero": null,
+                "oveja": null,
+                "borregos": null,
+                "borregos": null,
+                "borregas": null,
+                "corderos/as": null
+            },
+        },
+        "fuente de agua": {
+            "pozo": false,
+            "represa": false,
+            "acueducto": false,
+            "laguna": false,
+            "rio": false,
+            "quebrada": false,
+            "manantial": false,
+            "publico": false,
+            "privado": false
+        },
+        "sistema de riego": {
+            "posee": false,
+            "tipo": {
+                "gravedad": false,
+                "aspersion": false,
+                "microaspersion": false,
+                "goteo": false,
+                "otro": {
+                    "riego": null,
+                    "superficie (Ha)": null,
+                    "motobomba (Hp)": null,
+                    "capacidad de flujo": null,
+                    "condiciones": null
+                },
+            },
+        },
+        "instalaciones equipos y maquinarias": {
+            "manejo de ganaderia": {
+                "corrales": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "manga": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "bretes": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "romana": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "sala de ordeño": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "bebederos": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "comederos": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "cerco electrico": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "nro de potreros": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "has x potrero": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "planta electrica (KVA)": {
+                    "posee": null,
+                    "observacion": null
+                },
+            },
+            "Siembra": {
+                "tractores 4*2": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "tractores 4*4": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "galpones": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "silos": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "sembradora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "cosechadora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "asperjadora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "carreta o zorra": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "rotativa": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "rolo": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "arado": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "surcadora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "abonadora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "embutidora": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "vagon forrajero": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "bolsas para ensilar": {
+                    "posee": null,
+                    "observacion": null
+                },
+            },
+            "ordeño": {
+                "mecanico": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "manual": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "tanque de frio": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "cantaras": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "filtros de tela": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "paletas para CMT": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "paletas para fondo negro": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "reactivo para CMT": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "ordeño con techo": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "ordeño con piso de cemento": {
+                    "posee": null,
+                    "observacion": null
+                },
+            },
+            "reproduccion": {
+                "tanque de nitrogeno": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "caja de inseminacion": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "pistoleta de inseminacion": {
+                    "posee": null,
+                    "observacion": null
+                },
+                "termo para descongelar pajuelas": {
+                    "posee": null,
+                    "observacion": null
+                },
+            },
+        },
+        "alimentacion": {
+            "pasto de corte": {
+                "tipo": null,
+                "informacion": null,
+                "tipo 2": null,
+                "informacion": null
+            },
+            "tipo de pasto de pastoreo y areas sembradas": {
+                "bracheria": {
+                    "posee": false,
+                    "informacion": null
+                },
+                "estrella": {
+                    "posee": false,
+                    "informacion": null
+                },
+                "guinea": {
+                    "posee": false,
+                    "informacion": null
+                },
+                "aleman": {
+                    "posee": false,
+                    "informacion": null
+                },
+                "otro": {
+                    "posee": null,
+                    "informacion": null
+                },
+            },
+            "caña de azucar": null,
+            "nro de potreros": null,
+            "area promedio": null,
+            "silo": null,
+            "cultivo": null,
+            "toneladas de silo cosechadas": {
+                "toneladas": null,
+                "observacion": null
+            },
+            "suministra minerales": {
+                "posee": false,
+                "kgs/dias": null
+            },
+            "suministra concentrado": {
+                "posee": false,
+                "kgs/dias": null
+            },
+        },
+        "registros": {
+            "registro de parto": false,
+            "registro de secado": false,
+            "peso al nacer": false,
+            "peso al destete": false,
+            "peso al año": false,
+            "pesaje de la leche": {
+                "posee": false,
+                "mensual": null,
+                "semanal": null,
+                "diario": null
+            },
+            "observaciones": null,
+        },
+        "sanidad animal": {
+            "resibe asistencia tecnica": {
+                "posee": false,
+                "de quien": null
+            },
+            "vacunas aplicadas anualmente": {
+                "aftosa": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "rabia": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "leptospira": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "virales": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "clostridiales": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "brucella": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "triple": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "otras": {
+                    "posee": false,
+                    "nombre": null,
+                    "observacion": null
+                },
+            },
+            "desparasitaciones": {
+                "endoparasitos": {
+                    "posee": false,
+                    "tipo": null,
+                    "observacion": null
+                },
+                "ectoparasitos": {
+                    "posee": false,
+                    "tipo": null,
+                    "observacion": null
+                },
+            },
+            "pruebas": {
+                "brucella": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "leptospira": {
+                    "posee": false,
+                    "observacion": null
+                },
+                "otras": {
+                    "posee": false,
+                    "nombre": null,
+                    "observacion": null
+                },
+            },
+            "secado de la vaca": {
+                "natural": false,
+                "inducido": false,
+                "producto utilizado": null
+            },
+        },
+        "manejo reproductivo": {
+            "tecnica utilizada": {
+                "monta natural": false,
+                "monta controlada reemplazo de padrotes": false,
+                "inseminacion": false,
+                "transferencia de embriones": false
+            },
+        },
+    },
+    "financiamiento": {
+        "credito": false,
+        "banco/institucion": false,
+        "requerimiento de vacas": false,
+        "requerimiento de novillas": false,
+        "posee documento del INTI": null,
+        "posee hierro registrado y notariado por el INSAI": null
+    },
+}
